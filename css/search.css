@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+form{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 35px;
+    background-color: #e47f0b;
+    border-radius: 25px;
+}
+form input{
+    width: 240px;
+    border: none;
+    outline: 0;
+    font-size: 18px;
+    padding:0px 5px ;
+    background-color: #e47f0b;
+    color: #fff;
+    font-size: 14px;
+}
+
+form button{
+    border: none;
+    background: 0;
+    outline: 0;
+    padding-top:2px ;
+}
+form button i.fa-solid{
+    width: 50px;
+    font-size: 25px;
+    color: #fff;
+}
